@@ -1,9 +1,10 @@
 import React from 'react'
+import Homepage from '../components/Homepage/Homepage'
 
 function index() {
     return (
         <div>
-            <h1>Hello here</h1>
+            <Homepage />
         </div>
     )
 }

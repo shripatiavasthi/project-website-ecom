@@ -1,0 +1,72 @@
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.sliderImg{
+    height: 100vh;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 12.25rem;
+    width: 32%;
+    left: 4%;
+    padding-top: 1.25rem;
+    
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+
+}
+
+.carousel-caption  > h3 {
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+     
+    margin-bottom: 0;
+}
+
+@media (max-width : 480px) {
+    .slider{
+       
+    height: 57vh;
+    }
+    .carousel {
+        position: relative;
+        height: 100%;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 100% !important;
+    }
+    .carousel-item{
+        height: 100%;
+    }
+    .carousel-caption {
+        position: absolute;
+        bottom: 3.25rem;
+        width: 45%;
+      
+        left: 4%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+    .carousel-caption > h3 {
+        font-size: 2rem;
+         
+    }
+    .sliderImg{
+        height: 100%;
+    }
+}
