@@ -20,7 +20,7 @@ const sliderArray = [
 function Slider() {
   return (
     <div className="slider">
-      <Carousel prevIcon={false} nextIcon={false}>
+      {/* <Carousel prevIcon={false} nextIcon={false}> */}
 
           {
               sliderArray.map((values) => (
@@ -40,7 +40,7 @@ function Slider() {
      
       
         
-      </Carousel>
+      {/* </Carousel> */}
     </div>
   );
 }

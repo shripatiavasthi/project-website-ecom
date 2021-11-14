@@ -1,5 +1,5 @@
 import React from 'react'
-import "../css/Finishes.css";
+// import "../css/Finishes.css";
 //finishes images
 import crystal from "../Assets/finishes/crystal.png"
 import sandblast from "../Assets/finishes/sandblast.png"
